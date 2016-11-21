@@ -314,13 +314,13 @@ body {
 	background-image: url("projects/1/1.jpg")
 }
 .two {
-	background-image: url("projects/2/calendar.jpg");
+	background-image: url("projects/4/allegro.jpg");
 }
 .three {
 	background-image: url("projects/3/legion.jpg");
 }
 .four {
-	background-image: url("projects/4/allegro.jpg");
+    background-image: url("projects/2/calendar.jpg");	
 }
 .five {
 	background-image: url("projects/5/3.jpg");

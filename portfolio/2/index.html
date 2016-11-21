@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>e-Remax International</title>
+   	<style>
+<!--
+* {
+  box-sizing: border-box;
+}
+a {
+	color: black;
+    text-decoration: none;
+}
+body,
+p {
+	margin: 0;
+	font-family: "Calibri"
+}
+.user-foo {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* Grid */
+[class*="user-col-"] {
+  float: left;
+  min-height: 1px; }
+.user-col-1 {
+  width: 8.33%; 
+}
+.user-col-2 {
+  width: 16.66%;
+}
+.user-col-3 {
+  width: 25%; 
+}
+.user-col-4 {
+  width: 33.33%; 
+}
+.user-col-5 {
+  width: 41.66%; 
+}
+.user-col-6 {
+  width: 50%; 
+}
+.user-col-7 {
+  width: 58.33%; 
+}
+.user-col-8 {
+  width: 66.66%; 
+}
+.user-col-9 {
+  width: 75%; 
+}
+.user-col-10 {
+  width: 83.33%; 
+}
+.user-col-11 {
+  width: 91.66%; 
+}
+.user-col-12 {
+  width: 100%; 
+}
+.user-row:before,
+.user-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* navigation */
+.user-nav {
+	height: 41px;
+	background-color: #ebebeb;
+}
+.user-nav ul {
+	line-height: 41px;
+    font-weight: 100;
+    margin: 0;
+}
+.user-nav ul li {
+	display: inline-block;
+	font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 28px;
+}
+.user-nav-contact {
+	text-align: right;
+}
+.user-nav-contact p {
+	display: inline-block;
+	text-align: right;
+    font-size: 18px;
+    font-weight: 900;
+    padding-right: 50px;
+    margin: 0;
+}
+.user-nav-contact p:first-child {
+	padding-right: 20px;
+}
+.user-nav-contact p:last-child {
+	padding-right: 50px;
+}
+.user-nav-contact {
+	line-height: 41px;
+}
+.user-nav-contact span {
+	font-size: 18px;
+}
+/* logo and main photo */
+.user-logo {
+    padding-top: 33px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.user-main-photo {
+	padding: 0;
+    margin-bottom: 17px;
+}
+/* item offered */
+.user-offered-topic {
+	max-width: 1095px;
+	min-height: 114px;
+	background-color: #ebebeb;
+	margin: auto;
+}
+.user-offered-content {
+	padding-left: 35px;
+}
+.user-offered-topic p:first-child {
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-top: 14px;
+	font-weight: 100;
+	margin: 0;
+}
+.user-offered-topic p:last-child {
+	font-size: 36px;
+	margin: 0;
+	padding-top: 5px;
+}
+.user-offered-describe {
+	margin: 0 91px 0 88px;
+	padding-top: 14px;
+}
+.user-offered-describe p:first-child {
+	padding-top: 9px;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: lighter;
+
+}
+.user-offered-describe p:last-child {	
+	font-size: 16px;
+	margin-bottom: 54px;
+	padding-top: 15px;
+}
+.user-offered-gallery img {
+	margin-bottom: 19px;
+}
+/* details */
+.user-heading {
+	padding-left: 87px;
+    margin-top: 17px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.user-table-details {
+	padding-left: 87px;
+	padding-top: 10px;
+}
+.user-left-side {
+	height: 50px;
+    background-color: #b7b7b7;
+    width: 50px;
+    text-align: center;
+    float: left;
+}
+.user-right-side {
+	margin-left: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ebebeb;
+}
+.user-right-side p {
+    padding-left: 20px;
+    font-size: 18px;
+}
+.user-number {
+	line-height: 50px;
+    color: #ebebeb;
+    font-size: 30px;
+}
+.user-glyphicon {
+	line-height: 58px;
+}
+.user-details {
+    padding-top: 8px;
+    width: 1035px;
+}
+/* details gallery */
+.user-details-gallery {
+	margin-top: 78px;
+}
+.user-details-gallery img {
+	margin-bottom: 41px;
+}
+/* accessories and optional accessories */
+.optional-accessories {
+    margin-top: 31px;
+}
+.user-pad {
+	padding-top: 15px;
+}
+/*Photo dimensions */
+.user-dimensions-photo {
+	margin-top: 58px;
+}
+/* summary */
+.user-summary {
+    margin-top: 7px;
+}
+.user-sum {
+	padding-top: 33px;
+}
+.user-sum .user-heading {
+	padding: 0;
+}
+.user-marg {
+	padding-left: 0;
+    padding-top: 15px;
+}
+.user-marg p:nth-child(even) {
+    font-size: 16px;
+    padding-top: 16px;
+    padding-right: 55px;
+}
+/* end information */
+.user-delivery-information {
+	margin-top: 58px;
+	max-width: 1085px;
+}
+.user-payments {
+	height: 313px;
+	background-color: #d7d7d7;
+}
+.user-delivery {
+	height: 313px;
+	background-color: #ebebeb;
+}
+.user-rules {
+	height: 331px;
+	background-color: #e1e1e1;
+}
+.user-footer-contact {
+	height: 43px;
+	background-color: #d7d7d7;
+}
+.user-payment {
+    padding-left: 55px;
+}
+.user-payments-content {
+	padding-left: 49px;
+    font-size: 21px;
+    line-height: 130%;
+    padding-top: 36px;
+}
+.user-payments-content span {
+	font-weight: 900;
+}
+.user-delivery-pad {
+    padding-left: 40px;
+}
+.user-delivery-content {
+    padding-left: 137px;
+    padding-top: 56px;
+    font-size: 18px;
+}
+.user-delivery-content p {
+	padding-left: 10px;
+}
+.user-transport {
+	padding-top: 20px;
+}
+.user-delivery-button {
+	height: 48px;
+	width: 213px;
+	font-size: 15px;
+	background-color: #898989;    
+    margin: auto;    
+    margin-top: 61px;
+}
+.user-delivery-button p {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	line-height: 48px;
+}
+.user-rule {
+	padding-left: 0;
+}
+.user-rule p {
+	text-align: center;
+}
+.user-rules-content {
+    max-width: 565px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 190%;
+    padding-top: 100px;
+}
+.user-rules-content p:nth-child(3) {
+	line-height: 5mm;
+}
+.user-footer-contact {
+	text-align: center;
+}
+.user-footer-contact p {
+	display: inline-block;
+	line-height: 43px;
+	font-size: 18px;
+	font-weight: 900;
+    padding-right: 50px;
+    margin-bottom: 0;
+}
+.user-footer-contact p:last-child {
+	padding-left: 80px;
+}
+.user-footer-navigation {
+    text-transform: uppercase;
+}
+.user-footer-navigation img {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.user-footer-navigation ul {
+	line-height: 48px;
+	margin: 0;
+}
+.user-footer-navigation ul li {
+	display: inline-block;
+	font-size: 18px;
+    padding-right: 28px;
+    font-weight: 100;
+}
+.user-button-up {
+	float: right;
+	width: 147px;
+	height: 48px;
+	background-color: #ccc;
+    left: 34px;
+	font-weight: 900;
+}
+.user-button-up p {
+	line-height: 48px;
+	text-align: center;
+	font-size: 20px;
+}
+.user-up {
+	padding-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+<!-- Navigation -->
+	<div class="user-nav user-foo">
+		<div class="user-row">
+			<div class="user-col-7">
+				<ul>
+					<li><a href="#">o mnie</a></li>
+					<li><a href="#">najpopularniejsze aukcje</a></li>
+					<li><a href="#">dodaj do ulubionych</a></li>
+					<li><a href="#">napisz do nas</a></li>
+				</ul>
+			</div>
+			<div class="user-col-5">
+				<div class="user-nav-contact">
+	 				<p><img src="img/icon/letter.png" alt="email"> remas11@interia.pl</p>
+	 				<p><img src="img/icon/11.png" alt="phone number"> +48 513 913 500</p>	 			
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Logo -->
+	<div class="user-logo">
+		<div class="user-foo">
+			<img src="img/top/logo.png" alt="e-Remax logo">
+		</div>
+	</div>
+<!-- Main photo -->
+	<div class="user-main-photo user-foo">
+		<img src="img/top/wohnlandschaft-xxl-leder-weiss-elsa-6.jpg" alt="Wohnlandschaft XXL Leder">
+	</div>
+	<div class="user-offered user-foo">
+		<div class="user-offered-topic">
+			<div class="user-offered-content">				
+				<p><img src="img/icon/rectangle.png"> Oferowy przedmiot</p>
+				<p>Narożnik czarny - duży ładny</p>
+			</div>
+		</div>
+		<div class="user-offered-describe">
+			<p><img src="img/icon/rectangle.png"> opis</p>
+			<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®, unverwechselbar mit seinen Hochglanz polierten Edelstahl-Füßen. Eine echte Innovation für jene, die ein modernes Design zu schätzen wissen. Die Wohnlandschaft aus echtem italienischem Rindsleder kombiniert mit Premium Kunstleder, gegen aufpreis auch Voll-bezogen, begeistert in jedem Fall und versprüht beim Betrachter puren Luxus. Darüber hinaus genießen sie dank der Kombination aus Komfortschaum und der Nosagfederung einen erstklassigen Sitzkomfort. Sauber verarbeitete Nähte garantieren eine lange Lebensdauer, bei richtiger Nutzung.</p>
+		</div>
+		<div class="user-offered-gallery">
+			<img src="img/middle/wohnlandschaft-xxl-leder-schoko-elsa-1.jpg" alt="XXL Leder schoko elsa">
+			<img src="img/middle/wohnlandschaft-xxl-leder-braun-elsa-2.png" alt="XXL Leder braun elsa">
+		</div>		
+	</div>
+<!-- Details -->
+	<div class="user-product-details user-foo">		
+		<div class="user-heading">
+			<p><img src="img/icon/rectangle.png"> Szczegóły</p>
+		</div>
+		<div class="user-table-details">
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+		</div>		
+	</div>
+<!-- Gallery -->
+	<div class="user-details-gallery user-foo">
+		<img src="img/middle/wohnlandschaft-xxl-leder-braun-elsa-3.jpg" alt="XXL Leder braun elsa">
+		<img src="img/middle/wohnlandschaft-xxl-leder-braun-elsa-4.jpg" alt="XXL Leder braun elsa">
+		<img src="img/middle/wohnlandschaft-xxl-leder-braun-elsa-5.jpg" alt="XXL Leder braun elsa">
+	</div>
+<!-- Accessories -->
+	<div class="user-accessories user-foo">
+		<div class="user-heading">
+			<p><img src="img/icon/rectangle.png"> Dodatki</p>
+		</div>
+		<div class="user-table-details">
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-glyphicon"><img src="img/icon/23.png"></div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+		</div>
+<!-- Optional accessories -->
+		<div class="user-heading optional-accessories">
+			<p><img src="img/icon/rectangle.png"> Opcjonalne dodatki</p>
+		</div>
+		<div class="user-table-details user-pad">
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-number">1</div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>
+			<div class="user-details user-row">
+				<div class="user-left-side">
+					<div class="user-number">2</div>
+				</div>
+				<div class="user-right-side">
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®</p>
+				</div>
+			</div>		
+		</div>
+		<div class="user-dimensions-photo user-foo">
+			<img src="img/middle/echt-leder-wohnlandschaft-elsa-sofa-in-u-form-skizze-6.jpg" alt="Wohnlandschaft elsa sofa dimensions">
+		</div>
+	</div>
+<!-- summary section -->
+	<div class="user-summary-section user-foo">
+	 	<div class="user-summary">
+	 		<div class="user-row user-sum">
+		 		<div class="user-col-6">
+		 			<img src="img/bottom/white-791685-1920.png">
+		 		</div>
+		 		<div class="user-col-6 user-marg">
+		 			<div class="user-heading">
+						<p><img src="img/icon/rectangle.png"> Jakość</p>
+					</div>
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®, unverwechselbar mit seinen Hochglanz polierten Edelstahl-Füßen. Eine echte Innovation für jene, die ein modernes Design zu schätzen wissen. Die Wohnlandschaft aus echtem italienischem Rindsleder kombiniert mit Premium Kunstleder, gegen aufpreis auch Voll-bezogen, begeistert in jedem Fall und versprüht beim Betrachter puren Luxus. Darüber hinaus genießen sie dank der Kombination aus Komfortschaum und der Nosagfederung einen erstklassigen Sitzkomfort.</p>
+		 		</div>
+	 		</div>
+	 		<div class="user-row user-sum">
+		 		<div class="user-col-6">
+		 			<img src="img/bottom/sofa-1693689-1920.png">
+		 		</div>
+		 		<div class="user-col-6 user-marg">
+		 			<div class="user-heading">
+						<p><img src="img/icon/rectangle.png"> Doświadczenie</p>
+					</div>
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®, unverwechselbar mit seinen Hochglanz polierten Edelstahl-Füßen. Eine echte Innovation für jene, die ein modernes Design zu schätzen wissen. Die Wohnlandschaft aus echtem italienischem Rindsleder kombiniert mit Premium Kunstleder, gegen aufpreis auch Voll-bezogen, begeistert in jedem Fall und versprüht beim Betrachter puren Luxus. Darüber hinaus genießen sie dank der Kombination aus Komfortschaum und der Nosagfederung einen erstklassigen Sitzkomfort.</p>
+		 		</div>
+	 		</div>
+	 		<div class="user-row user-sum">
+		 		<div class="user-col-6">
+		 			<img src="img/bottom/pexels-photo-29594.png">
+		 		</div>
+		 		<div class="user-col-6 user-marg">
+		 			<div class="user-heading">
+						<p><img src="img/icon/rectangle.png"> Pomoc w zakupie</p>
+					</div>
+					<p>Wohnlandschaft Elsa Sofa in U-Form, besitzt ein edles Design geschützt durch Mobella®, unverwechselbar mit seinen Hochglanz polierten Edelstahl-Füßen. Eine echte Innovation für jene, die ein modernes Design zu schätzen wissen. Die Wohnlandschaft aus echtem italienischem Rindsleder kombiniert mit Premium Kunstleder, gegen aufpreis auch Voll-bezogen, begeistert in jedem Fall und versprüht beim Betrachter puren Luxus. Darüber hinaus genießen sie dank der Kombination aus Komfortschaum und der Nosagfederung einen erstklassigen Sitzkomfort.</p>
+		 		</div>
+	 		</div>
+	 	</div>
+ 	</div>
+	<!-- Payments -->
+ 	<div class="user-delivery-information user-foo">
+ 		<div class="user-row">
+	 		<div class="user-col-6 user-payments">
+	 			<div class="user-heading user-payment">
+					<p><img src="img/icon/rectangle.png"> Płatności</p>
+				</div>
+				<div class="user-payments-content user-row">
+					<div class="user-col-12">	                   
+	                    <div class="user-row">
+	                        <div class="user-col-1">
+	                            <img src="img/icon/1.png">
+	                        </div>
+	                        <div class="user-col-11">
+	                            <p>Przelew na konto <img src="img/bottom/800px-bank-zachodni-wbk-logo.png" alt="Bank zachodni WBK logo"><br>nr konta <span>52 1090 1492 0000 0001 1641 1362</span><br>albo szybki przelew z <img src="img/bottom/logo-payu.png" alt="Logo PayU"></p>
+	                        </div>
+	                    </div>
+	                    <div class="user-row">
+	                        <div class="user-col-1">
+	                            <img src="img/icon/2.png">
+	                        </div>
+	                        <div class="user-col-11">
+	                            <p>Pobranie</p>
+	                        </div>
+	                    </div>
+	                    <div class="user-row">
+	                        <div class="user-col-1">
+	                            <img src="img/icon/3.png">
+	                        </div>
+	                        <div class="user-col-11">
+	                            <p>Płatność przy odbiorze</p>
+	                        </div>
+	                    </div>
+	                </div>
+				</div>
+	 		</div>
+<!-- Delivery -->
+	 		<div class="user-col-6 user-delivery">
+	 			<div class="user-heading user-delivery-pad">
+					<p><img src="img/icon/rectangle.png"> Dostawa</p>
+				</div>                   
+                <div class="user-row user-delivery-content">
+                    <div class="user-col-1">
+                        <img src="img/icon/1.png">
+                    </div>
+                    <div class="user-col-5">
+                        <p>Odbiór osobisty</p>
+                    </div>
+                    <div class="user-col-6">
+                    	<img src="img/icon/box.png">
+                    </div>
+                </div>
+                <div class="user-row user-delivery-content user-transport">
+                    <div class="user-col-1">
+                        <img src="img/icon/2.png">
+                    </div>
+                    <div class="user-col-5">
+                        <p>Nasz transport</p>
+                    </div>
+                    <div class="user-col-6">
+                    	<img src="img/icon/truck.png">
+                    </div>
+                </div>
+                <div class="user-delivery-button">
+                	<p>Szybka wysyłka</p>
+                </div>
+	 		</div>
+ 		</div>
+<!-- Rules -->
+ 		<div class="user-row user-rules">
+ 			<div class="user-col-12">
+ 				<div class="user-heading user-rule">
+					<p><img src="img/icon/rectangle.png"> Regulamin</p>
+				</div>
+ 			</div>
+ 			<div class="user-rules-content">
+ 				<p>Po wygraniu aukcji prosimy o potwierdzenie zakupu mailem lub telefonicznie</p>
+ 				<p>W tytule przelewu proszę podać nick oraz numer aukcji</p>
+ 				<p>Istnieje możliwość odbioru osobistego oraz wybrania sposobu dostarczenia zakupionych produktów</p>
+ 				<p>Wpłaty należy dokonać w przeciągu 7 dni od daty zakupu</p>
+ 				<p>Istnieje możliwość transportu zakupów po wcześniejszym uzgodnieniu</p>
+ 			</div>
+		</div>
+<!-- Footer contact -->
+		<div class="user-row user-footer-contact">
+ 			<div class="user-col-12">
+ 				<p><img src="img/icon/letter.png" alt="email"> remas11@interia.pl</p>
+ 				<p><img src="img/icon/phone.png" alt="phone number"> +48 513 913 500</p>
+ 			</div>
+		</div>
+<!-- Footer navigation -->
+		<div class="user-footer-navigation">
+			<div class="user-row">
+				<div class="user-col-1">
+					<img src="img/bottom/logo.png" alt="e-Remax logo">
+				</div>
+				<div class="user-col-9">
+					<ul>
+						<li><a href="#">o mnie</a></li>
+						<li><a href="#">najpopularniejsze aukcje</a></li>
+						<li><a href="#">dodaj do ulubionych</a></li>
+						<li><a href="#">napisz do nas</a></li>
+					</ul>
+				</div>
+				<div class="user-col-2 user-up">
+					<div class="user-button-up">
+						<p><a href="#">Do góry</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- End -->
+</body>
+</html>
