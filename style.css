@@ -290,11 +290,11 @@ body {
 }
 .layer:hover {
 	background-color: rgba(47, 70, 102, 0.9);
-    transition: .3s ease-in-out
+    transition: .3s ease-in-out;
 }
 .layer:hover p {
 	visibility: visible;
-    transition: .3s ease-in-out
+    transition: .3s ease-in-out;
 }
 /* Projects */
 .projects {
@@ -343,7 +343,7 @@ body {
 	height: 100%;
 	width: 100%;
 	background-color: rgba(47, 70, 102, 0.9);
-    transition: .3s ease-in-out
+    transition: .3s ease-in-out;
 }
 .project-layer p {
 	color: #FFDFAA;
