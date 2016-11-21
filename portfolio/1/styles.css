@@ -1,0 +1,610 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600,700,800&subset=latin-ext';
+/*------------------        GRID         ----------------- */
+* {
+  box-sizing: border-box; }
+
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  padding: 20px; }
+
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.col-x-1 {
+  width: 20%;
+  max-height: 480px;
+  padding: 0; }
+
+.col-x-2 {
+  width: 40%;
+  max-height: 480px;
+  padding: 0; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.col-offset-1 {
+  margin-left: 8.33%; }
+
+.col-offset-2 {
+  margin-left: 16.66%; }
+
+.col-offset-3 {
+  margin-left: 25%; }
+
+.col-offset-4 {
+  margin-left: 33.33%; }
+
+.col-offset-5 {
+  margin-left: 41.66%; }
+
+.col-offset-6 {
+  margin-left: 50%; }
+
+.col-offset-7 {
+  margin-left: 58.33%; }
+
+.col-offset-8 {
+  margin-left: 66.66%; }
+
+.col-offset-9 {
+  margin-left: 75%; }
+
+.col-offset-10 {
+  margin-left: 83.33%; }
+
+.col-offset-11 {
+  margin-left: 91.66%; }
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .col-t-1 {
+    width: 8.33%; }
+
+  .col-t-2 {
+    width: 16.66%; }
+
+  .col-t-3 {
+    width: 25%; }
+
+  .col-t-4 {
+    width: 33.33%; }
+
+  .col-t-5 {
+    width: 41.66%; }
+
+  .col-t-6 {
+    width: 50%; }
+
+  .col-t-7 {
+    width: 58.33%; }
+
+  .col-t-8 {
+    width: 66.66%; }
+
+  .col-t-9 {
+    width: 75%; }
+
+  .col-t-10 {
+    width: 83.33%; }
+
+  .col-t-11 {
+    width: 91.66%; }
+
+  .col-t-12 {
+    width: 100%; }
+
+  html {
+    font-size: 16px; } }
+@media (max-width: 600px) {
+  /* For phones: */
+  .col-m-1 {
+    width: 8.33%; }
+
+  .col-m-2 {
+    width: 16.66%; }
+
+  .col-m-3 {
+    width: 25%; }
+
+  .col-m-4 {
+    width: 33.33%; }
+
+  .col-m-5 {
+    width: 41.66%; }
+
+  .col-m-6 {
+    width: 50%; }
+
+  .col-m-7 {
+    width: 58.33%; }
+
+  .col-m-8 {
+    width: 66.66%; }
+
+  .col-m-9 {
+    width: 75%; }
+
+  .col-m-10 {
+    width: 83.33; }
+
+  .col-m-11 {
+    width: 91.66%; }
+
+  .col-m-12 {
+    width: 100%; }
+
+  html {
+    font-size: 12px; } }
+/*------------------       HEADER         ----------------- */
+header {
+  background-color: #313234;
+  height: 50px; }
+
+body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+.start {
+  text-align: center; }
+
+header > nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  float: right;
+  clear: both; }
+  header > nav ul li {
+    display: inline-block; }
+    header > nav ul li a {
+      line-height: 50px;
+      padding: 0 12px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase; }
+      header > nav ul li a:hover {
+        color: #b1b4b3; }
+header > nav img {
+  padding: 10px 0;
+  margin-left: 50px; }
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  header {
+    height: 370px; }
+
+  .start {
+    text-align: center; }
+
+  header > nav ul li {
+    display: block; }
+  header > nav img {
+    display: inline-block;
+    margin-left: 0; }
+  header > nav ul {
+    float: none; } }
+@media (max-width: 600px) {
+  header {
+    height: 370px; }
+
+  .start {
+    text-align: center; }
+
+  header nav ul {
+    float: none; }
+    header nav ul li {
+      display: block; }
+  header nav img {
+    display: inline-block;
+    margin-left: 0; } }
+/*------------------        HERO         ----------------- */
+.hero {
+  width: 100%;
+  height: calc(100vh - 50px);
+  background: url("https://images.unsplash.com/photo-1430213501427-c640a8880f78?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5762f3fc186aced8e3e42d555668abb1") center/cover; }
+
+.slogan {
+  float: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 800px;
+  margin-top: 200px;
+  width: 700px; }
+  .slogan h1 {
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 40px; }
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .slogan > h1 {
+    text-align: center;
+    font-size: 30px;
+    float: right; } }
+@media (max-width: 600px) {
+  .slogan > h1 {
+    text-align: center;
+    font-size: 20px;
+    float: right; } }
+/*------------------       3 ELEMENTS         ----------------- */
+.elements {
+  padding: 120px 0; }
+  .elements h2 {
+    text-transform: uppercase;
+    font-size: 28px; }
+
+.profit-btn {
+  width: 150px;
+  height: 150px;
+  border: 0;
+  border-radius: 15%;
+  background-color: #313332;
+  font-size: 80px;
+  color: white;
+  padding: 0;
+  line-height: 100px;
+  transition: 0.5s; }
+
+.btn-txt {
+  transition: 0.5s;
+  text-align: center; }
+  .btn-txt:hover {
+    color: #00C7E8; }
+    .btn-txt:hover .profit-btn {
+      background-color: #2C4891; }
+  .btn-txt p {
+    color: #313332;
+    font-weight: 300; }
+
+/*------------------        BEFORE GALLERY         ----------------- */
+.beforegallery {
+  padding-bottom: 50px; }
+  .beforegallery .container h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold; }
+  .beforegallery .container p {
+    font-size: 20px;
+    text-align: center; }
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .beforegallery > .container h1 {
+    font-size: 33px; }
+  .beforegallery > .container p {
+    font-size: 18px;
+    text-align: center; } }
+@media (max-width: 480px) {
+  .beforegallery > .container h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold; }
+  .beforegallery > .container p {
+    font-size: 16px;
+    text-align: center; } }
+/*------------------        GALLERY         ----------------- */
+.gallery {
+  background-color: #313234;
+  width: 100%; }
+
+.gallery-1 {
+  background-image: url(https://wallpaperscraft.com/image/acura_zdx_2009_concept_car_salon_interior_steering_wheel_speedometer_23596_3840x2160.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.gallery-2 {
+  background-image: url(http://namonitore.ru/uploads/catalog/lancia/kozhaniy_salon_lancia_thesisbicolore_1600.jpg);
+  background-size: cover;
+  background-position: center left; }
+
+.gallery-3 {
+  background-image: url(https://wallpaperscraft.com/image/acura_zdx_2009_concept_car_salon_interior_steering_wheel_23611_1920x1080.jpg);
+  background-size: cover;
+  background-position: center left; }
+
+.gallery-4 {
+  background-image: url(https://www.carsbase.com/photo/BMW-7_series_mp2_pic_37230.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.gallery-5 {
+  background-image: url(http://namonitore.ru/uploads/catalog/chrysler/chrysler_beliy_rul_v_chernom_salone_1280.jpg);
+  background-size: cover;
+  background-position: center left; }
+
+.gallery-6 {
+  background-image: url(http://www.automobilesreview.com/gallery/lexus-lf-xh-hybrid-suv-concept/lf-xh-hybrid-suv-concept_04.jpg);
+  background-size: cover;
+  background-position: center left; }
+
+.gallery-7 {
+  background-image: url(http://namonitore.ru/uploads/catalog/audi/cherniy_salon_audi_r8_1600.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.gallery-8 {
+  background-image: url(http://namonitore.ru/uploads/catalog/bmw/chernokorichneviy_kozhaniy_salon_bmw_1024.jpg);
+  background-size: cover;
+  background-position: center center; }
+
+.stock {
+  height: 400px;
+  overflow: hidden;
+  position: relative; }
+  .stock img {
+    width: 100%;
+    height: 100%; }
+
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+  transition: 0.5s; }
+  .layer i {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 34px;
+    color: #2c4891;
+    background: white;
+    border: 2px solid #2c4891;
+    border-radius: 50%;
+    opacity: 0; }
+    .layer i:hover {
+      color: white;
+      background: #2c4891;
+      transition: 0.8s; }
+  .layer .fa-check-circle {
+    left: 0; }
+  .layer:hover {
+    background: rgba(0, 0, 0, 0.6); }
+    .layer:hover .fa-check-circle {
+      opacity: 0.9;
+      left: 20%; }
+    .layer:hover .fa-close {
+      opacity: 0.9;
+      right: 20%; }
+  .layer .fa-close {
+    right: 0; }
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .position h3 {
+    font-size: 20px; } }
+@media (max-width: 600px) {
+  .position h3 {
+    font-size: 15px; } }
+/*------------------        TEAM        ----------------- */
+.galleryx {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.photo {
+	text-align: center;
+	background-position: center center;
+}
+.picture {
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.one {
+	background-image: url(http://www.orientalescape.com/img/thailand/transfer/driver.jpg);
+	background-position: center right;
+}
+.two {
+	background-image: url(https://t4.ftcdn.net/jpg/00/84/31/29/240_F_84312970_bioRAwzuQZGNAUijN3kXgOpq8wtuDSBe.jpg);
+  background-position: center left;
+}
+.three {
+	background-image: url(http://www.foxyladydrivers.com/foxyblog/wp-content/uploads/2012/01/Woman-driving-0072.jpg);
+	background-position: center right;
+}
+.four {
+	background-image: url(http://www.boundlessmediasolutions.com/wp-content/uploads/2015/11/teen-learner-driver.jpg);
+	background-position: center center;
+}
+.layerx {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: rgba(128,128,128,0.5);
+	color: white;
+	display: none;
+}
+.picture:hover .layerx {
+	display: inline-block;
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+  .layerx h3 {
+    font-size: 20px; } }
+@media (max-width: 600px) {
+  .layerx h3 {
+    font-size: 15px; } }
+/*------------------        PROMO CONTAINER        ----------------- */
+.promo {
+  display: inline-block;
+  background-color: #313234;
+  width: 100%; }
+
+.road img {
+  width: 250px;
+  height: auto;
+  float: right;
+  border-radius: 50%; }
+.road .title h1 {
+  text-transform: uppercase;
+  margin-left: 18px;
+  font-size: 30px; }
+.road .row {
+  color: white; }
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .road {
+    text-align: center; }
+    .road img {
+      float: none; } }
+@media (max-width: 600px) {
+  .road {
+    text-align: center; }
+    .road img {
+      float: none; } }
+/*------------------        NUMBERS        ----------------- */
+section .numbers {
+  width: 100%; }
+
+.numbers {
+  text-align: center;
+  font-family: "Raleway"; }
+  .numbers h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #313332; }
+  .numbers p {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #00c7e8;
+    font-weight: 900; }
+
+/*------------------        FOOTER       ----------------- */
+.footer {
+  background-color: #313234;
+  color: white; }
+
+.end div h1 {
+  overflow: hidden;
+  text-align: left;
+  text-transform: uppercase; }
+  .end div h1:before, .end div h1:after {
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%; }
+  .end div h1:before {
+    right: 0.5em;
+    margin-left: -50%; }
+
+.row .down {
+  background-color: #252726;
+  width: 100%;
+  height: 70px; }
+  .row .down p {
+    color: white;
+    text-align: center;
+    line-height: 7px; }
+
+.contact {
+  padding: 2px; }
+  .contact p {
+    margin: 5px; }
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .up {
+    text-align: center; }
+
+  .end div h1 {
+    text-align: center; }
+    .end div h1:before, .end div h1:after {
+      display: none; } }
+@media (max-width: 600px) {
+  .up {
+    ext-align: center; }
+
+  .end div h1 {
+    text-align: center; }
+    .end div h1:before, .end div h1:after {
+      display: none; } }
+/*------------------      SOCIAL BUTTONS   ----------------- */
+.icon-btn {
+  float: center;
+  margin: 8px;
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 50px;
+  border-radius: 50px; }
+  .icon-btn:hover {
+    transform: scale(1.1);
+    color: #FFFFFF;
+    transition-duration: 1s; }
+
+.twitter {
+  color: #4099FF; }
+  .twitter:hover {
+    background-color: #4099FF; }
+
+.facebook {
+  color: #3B5998; }
+  .facebook:hover {
+    background-color: #3B5998; }
+
+.google-plus {
+  color: #DB5A3C; }
+  .google-plus:hover {
+    background-color: #DB5A3C; }
+
+.instagram {
+  color: #5C3D2E; }
+  .instagram:hover {
+    background-color: #5C3D2E; }
+
+.github {
+  color: #4183C4; }
+  .github:hover {
+    background-color: #4183C4; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+.pick-button {
+	visibility: hidden;
+}
+h1, h2, th, tr, .score {
+	text-align: center;
+}
+.buttons {
+	text-align: center;
+}

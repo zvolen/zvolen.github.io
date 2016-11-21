@@ -1,0 +1,279 @@
+@media (max-width: 600px) {
+	.fixed-nav {
+	visibility: visible;
+}
+/*hero*/
+	.hero-nav {
+		display: none;
+	}
+	.hero-slogan {
+		width: 100%;
+	}
+	.hero-slogan-layer h1 {
+		font-size: 18px;
+	}
+	.hero-slogan-layer p {
+		font-size: 14px;
+	}
+/*sidebar*/
+	.sidebar {
+		display: none;
+	}
+/*about me*/
+	.me {
+		margin: 0;
+	}
+	.me-describe p {
+		font-size: 18px;
+		width: 80%;
+	}
+	.me-theme p,
+	.skills-theme p,
+	.projects-theme p,
+	.contact-theme p {
+		font-size: 25px;
+		width: 50%;
+		padding-top: 30px;
+	}
+/*skills*/
+	.skills {
+		margin: 0;
+    	padding-bottom: 30px;
+	}
+	.skills-icons { 
+    	width: 70%;
+	    background-color: rgb(47, 70, 102);
+	    margin-top: 50px;
+	    display: table;
+	}
+	.icon {
+		height: 130px;
+	    margin-top: 35px;
+    	width: 100%;
+	}
+/*projects*/
+	.projects {
+		margin: 0;
+	}
+	.projects-row {
+		display: table;
+		text-align: center;
+	}
+	.project {
+		width: 80%;
+		height: 200px;
+	}
+	.project-layer p {
+		font-size: 18px;
+	}
+/*contact*/
+	.contact {
+		margin: 0;
+	}
+	.contact-row {
+		display: table;
+	}
+	.contact-describe,
+	.contact-data,
+	.contact-social {
+		width: 100%;
+		padding-top: 30px;
+	}
+	.contact-describe > p {
+		font-size: 16px;
+	}
+	.right-side {
+		font-size: 16px;
+	    width: 100%;
+	    margin: auto;
+	    text-align: center;
+	}
+	.left-side {
+	    width: 100%;
+		margin: 0 auto;
+		text-align: center;	
+	}
+	.contact-data .describe-theme {
+		margin: 0;
+	    margin-top: 10px;
+	}
+	.describe-theme p:before,
+	.describe-theme p:after {
+		width: 100%;
+	}
+	.contact-social > p {
+	    font-size: 16px;
+		padding-top: 20px;
+	}
+/*footer*/
+	.footer {
+		font-size: 10px;
+	}
+}
+@media (min-width:321px) and (max-width: 600px) {
+
+	.skills-icons { 
+	    text-align: center;
+	}
+	.icon {
+    	width: 50%;
+	}
+}
+
+@media (min-width:601px) and (max-width: 899px) {
+/*hero*/
+	.me-theme p,
+	.skills-theme p,
+	.projects-theme p,
+	.contact-theme p {
+		font-size: 30px;
+	    width: 40%;
+	    padding-top: 30px;
+	}
+	.nav-list a {
+		font-size: 16px;
+	}
+	.hero-slogan-layer h1 {
+		padding-top: 35vh;
+    	font-size: 30px;
+	}
+	/*sidebar*/
+	.sidebar a {
+    	font-size: 14px;
+	}
+	#brand a {
+		font-size: 18px;
+	}
+	/*about me*/
+	.me-describe p {
+	    width: 80%;
+	    font-size: 20px;
+	}
+	/*skills*/
+	.skills-icons {
+		display: block;
+		text-align: center;
+	}
+	.icon {
+	    margin-bottom: 25px;
+	    width: 30%;
+	    height: 75px;
+	}
+	.layer p {
+		padding: 0;
+	}
+	/*projects*/
+	.project {
+		width: 30%;
+		height: 250px;
+	}
+	.project-layer p {
+	    font-size: 17px;
+	}
+	/*contact*/
+	.contact {
+		margin-left: 15vw;
+	}
+	.contact-row {
+		display: table;
+	}
+	.contact-describe,
+	.contact-data,
+	.contact-social {
+		width: 100%;
+		padding-top: 30px;
+	}
+	.contact-describe > p {
+		font-size: 16px;
+	}
+	.right-side {
+		font-size: 16px;
+	    width: 100%;
+	    margin: auto;
+	    text-align: center;
+	}
+	.left-side {
+	    width: 100%;
+		margin: 0 auto;
+		text-align: center;	
+	}
+	.contact-data .describe-theme {
+		margin: 0;
+	    margin-top: 10px;
+	}
+	.describe-theme p:before,
+	.describe-theme p:after {
+		width: 100%;
+	}
+	.contact-social > p {
+	    font-size: 16px;
+		padding-top: 20px;
+	}
+	/*footer*/
+}
+@media (min-width:900px) and (max-width: 1200px) {
+	/*hero*/
+	.me-theme p,
+		.skills-theme p,
+		.projects-theme p,
+		.contact-theme p {
+			font-size: 35px;
+			width: 30%;
+			padding-top: 30px;
+		}
+	/*sidebar*/
+	.sidebar a {
+	    font-size: 15px;
+	}
+	#brand a {
+		font-size: 25px;
+	}
+	/*about me*/
+
+	/*skills*/
+	.skills-icons {
+		display: block;
+		text-align: center;
+	}
+	.icon {
+	    margin-bottom: 25px;
+	    width: 30%;
+	    height: 75px;
+	}
+	.layer p {
+		padding: 0;
+	}
+	/*projects*/
+	.project {
+		width: 30%;
+		height: 250px;
+	}
+	.project-layer p {
+		font-size: 20px;
+	}
+	/*contact*/
+	.contact-describe > p {
+	    padding: 40px 0px 0 40px;
+	}
+	.describe-theme p {
+		font-size: 20px;
+	}
+	.describe-theme p:before,
+	.describe-theme p:after {
+	    content: none;
+	}
+	.left-side .fa {
+		font-size: 25px;
+	}
+	.left-side {
+	    width: 100%;
+    	text-align: center;
+    	margin: 0;
+	}
+	.right-side {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+	/*footer*/
+}
