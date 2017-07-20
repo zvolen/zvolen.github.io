@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Calibri');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 @font-face {
     font-family: cgpro;
     src: url('fonts/ADAM.CGPRO.otf');
@@ -216,7 +216,7 @@ body {
     width: 60%;
     margin: auto;
     padding-top: 7%;
-    font-family: "Calibri";
+    font-family: "Lato";
     font-size: 22px;
     padding-bottom: 25px;
     color: rgb(47, 70, 102);
@@ -356,7 +356,7 @@ body {
 }
 .project-layer p:nth-child(2) {
 	font-weight: normal;
-	font-family: "Calibri";
+	font-family: "Lato";
 	padding: 25px 20px 0 25px;
 }
 .project-layer a {
@@ -379,7 +379,7 @@ body {
 }
 .six p {
 	font-weight: normal;
-	font-family: "Calibri";
+	font-family: "Lato";
 	padding-top: 60px;
     font-style: italic;
 }
@@ -415,7 +415,7 @@ body {
 	color: #FFDFAA;
 }
 .contact-social > p {
-	font-family: "Calibri";
+	font-family: "Lato";
     font-size: 18px;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -441,7 +441,7 @@ body {
     display: inline-block;
 }
 .contact-describe > p {
-    font-family: "Calibri";
+    font-family: "Lato";
     font-size: 18px;
 	padding: 40px 50px 0 40px;
 	color: #FFDFAA;
@@ -455,7 +455,7 @@ body {
 }
 .right-side {
 	float: left;
-	font-family: "Calibri";
+	font-family: "Lato";
     font-size: 18px;
     line-height: 50px;
     margin-left: 10%;
