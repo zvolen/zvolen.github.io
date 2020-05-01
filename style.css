@@ -274,6 +274,15 @@ body {
 .symfony {
 	background-image: url("img/symfony.png")
 }
+.alm {
+    background-image: url("img/alm.png")
+}
+.tfs {
+    background-image: url("img/tfs.png")
+}
+.uft {
+    background-image: url("img/uft.png")
+}
 .layer {
 	height: 100%;
 	width: 100%;
@@ -310,6 +319,12 @@ body {
     margin-top: 45px;
     background-position: center;
     background-size: cover;
+}
+div.project.zero {
+    width: 91.5%;
+}
+.zero {
+    background-image: url("projects/0/0.jpg")
 }
 .one {
 	background-image: url("projects/1/1.jpg")
